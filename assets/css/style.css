@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+}
+
+.main {
+  margin: 5px 10px 0px 10px;
+}
+
+.c1 {
+  float: left;
+  width: 25%;
+}
+
+.c2 {
+  float: left;
+  width: 50%;
+}
+
+.c3 {
+  float: left;
+  width: 25%;
+}
+
+.c4 {
+  float: left;
+  width: 60%;
+}
+
+.c5 {
+  float: left;
+  width: 40%;
+}
+.c6 {
+  margin-top: 5px;
+  float: left;
+  width: 23%;
+}
+
+.C7 {
+  margin-top: 5px;
+  float: left;
+  width: 23%;
+}
+
+.c7::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.c8 {
+  margin-top: 5px;
+  float: left;
+  width: 45%;
+}
+
+.row-one:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-two:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-one {
+  margin-top: 10px;
+  padding: 5px 5px 10px 5px;
+}
+
+.row-two {
+  background-color: rgb(238, 238, 238);
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 5px 5px 10px 5px;
+  margin-bottom: 10px;
+}
+
+.row-three {
+  margin-top: 10px;
+  margin-right: none;
+  width: 100%;
+  padding: 5px;
+  float: left;
+}
+
+.row-three table th {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.row-five {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.new {
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+}
+.new2 {
+  float: left;
+  width: 15%;
+  text-align: right;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.new2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-six {
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+}
+
+.r6a,
+.r6b {
+  float: left;
+  width: 50%;
+}
+
+.r6a:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 7px;
+  width: 100px;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.new3 td {
+  border: 1px solid black;
+}
+
+.new4 td {
+  border: 1px solid black;
+}
+
+.mod1,
+.mod2,
+.mod3,
+.mod4,
+.mod5,
+.mod6,
+.mod7 {
+  margin-top: 10px;
+  float: left;
+  width: 13.2%;
+  border-top: 1px solid black;
+}
+
+.mod1 {
+  border-left: 1px solid black;
+}
+.mod7 {
+  border-right: 1px solid black;
+}
+
+.mod {
+  border: 1px solid black;
+  padding: 15px;
+}
