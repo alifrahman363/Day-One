@@ -176,3 +176,168 @@
   border: 1px solid black;
   padding: 15px;
 }
+
+/* Day2
+#content {
+  width: 300px;
+  max-height: 108px;
+  padding: 20px;
+  overflow: hidden;
+  font-size: 18pxs;
+}
+
+#content.open {
+  max-height: 1000px;
+}
+
+#showMore {
+  background-color: cornflowerblue;
+  height: 20px;
+  width: 100px;
+  display: block;
+  text-transform: uppercase;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20px;
+} */
+
+#details {
+  background-color: greenyellow;
+  height: 20px;
+  width: 100px;
+  display: table;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+  border: 1px solid green;
+  border-radius: 5px 0px 0px 5px;
+  position: absolute;
+}
+
+#cogs {
+  background-color: greenyellow;
+  height: 20px;
+  width: 100px;
+  display: table;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 120px;
+  position: absolute;
+}
+
+#measurement {
+  background-color: greenyellow;
+  height: 20px;
+  width: 80px;
+  display: table;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid green;
+  margin-left: 220px;
+  position: absolute;
+}
+
+#link {
+  background-color: greenyellow;
+  height: 20px;
+  width: 100px;
+  display: table;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid green;
+  margin-left: 360px;
+  position: absolute;
+}
+
+#attachment {
+  background-color: greenyellow;
+  height: 20px;
+  width: 100px;
+  display: table;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 420px;
+  position: absolute;
+}
+
+#history {
+  background-color: greenyellow;
+  height: 20px;
+  width: 100px;
+  display: table;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 520px;
+  position: absolute;
+}
+
+#hiddenPara {
+  height: 200px;
+  width: 1000px;
+  display: block;
+  padding: 10px;
+  margin-left: 20px;
+  background-color: skyblue;
+  border-radius: 5px;
+}
+
+#hiddenPara.open {
+  max-height: 500px;
+  visibility: visible;
+}
+
+#hiddenPara.close {
+  display: block;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin-left: 20px;
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6 {
+  height: 30px;
+  width: 100px;
+  background-color: springgreen;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  margin-right: -4px;
+  border: 1px solid green;
+}
+
+#b1 {
+  border-radius: 5px 0px 0px 5px;
+}
+
+#b6 {
+  border-radius: 0px 5px 5px 0px;
+}
